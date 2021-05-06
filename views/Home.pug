@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts 
+    script
+      include ../static/index.js
+block style 
+    style
+      include ../static/style.css
+block content 
+    
+    section#photoSection 
+      div.container 
+      p#para1 Welcome to Afghani Dance Club 
+      p#para2  Dance & Rule 
+
+    section#missionSection
+      h2 Our Mission  
+      div.box
+        div.card 
+          img(src="../static/Card1.png", alt="") 
+          p Dance Perfection
+          
+        div.card 
+          img(src="../static/Card2.png", alt="")
+          p Lets Nacho 
+          
+        div.card 
+          img(src="../static/Card3.png", alt="")
+          p Just Do it 
+          
+        
+        
+    
+    section#sponsorSection 
+      h2 Our Sponsors 
+      div.sponsorBox 
+        img(src="../static/sponsor1.PNG", alt="Sponsor Image")
+        img(src="../static/sponsor2.PNG", alt="Sponsor Image")
+        img(src="../static/sponsor3.PNG", alt="Sponsor Image")
+        img(src="../static/sponsor4.PNG", alt="Sponsor Image")            

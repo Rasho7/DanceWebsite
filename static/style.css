@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); 
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#navbar{
+background-color:yellow ;
+border: 2px solid black;
+color: white;
+font-weight: bolder;
+}
+
+ul{
+
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    color: white;
+}
+
+li{
+    list-style: none;
+    padding: 12px 34px;
+font-size: 1.4rem;
+font-family: 'Nunito';
+color: black;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+
+#logo{
+    /* height: 40px; */
+    /* display: inline-block; */
+
+}
+
+#logo img{
+    display: inline-block;
+    height: 60px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+#logo p{
+    margin-left: 18px;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'Nunito';
+    /* margin-bottom: 10px; */
+}
+
+#logotext{
+    color: black;
+}
+#photoSection{
+    height: 300px;
+    /* align-items: center; */
+    /* text-align: center; */
+        background: url("/static/bg3.jpg") center / cover no-repeat ;
+        opacity: 0.8;
+        /* color: white; */
+        font-size: 2rem;
+        
+        font-family: 'Nunito';
+        font-weight: bolder;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: -1;
+        border: 2px solid black;
+        font-family: 'Nunito';
+}
+
+.container{
+padding: 50px 18px;
+/* justify-content: center; */
+/* align-items: center; */
+   /* text-align: center;  */
+}
+
+#para1{
+    padding-left: 100px;
+}
+#para2{
+    padding-left: 100px;
+    
+}
+
+#sponsorSection{
+    height: 250px;
+    background-color: rgb(0, 255, 170);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Nunito';
+}
+
+#sponsorSection h2{
+    padding-top: 6px;
+}
+
+#missionSection{
+    height: 300px;
+    /* background-color: rgb(124, 106, 167); */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    padding-top: 10px;
+}
+
+#missionSection h2{
+margin-bottom: 4px;
+    align-items: center;
+justify-content: center;
+text-align: center;
+font-family: 'Nunito';
+}
+
+.box{
+    display: flex;
+}
+
+.card{
+    border: 2px solid black;
+height: 240px;
+width: 300px;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+border-radius: 8px;
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-left: 12px;
+}
+
+.card p{
+    /* justify-content: center; */
+    margin-left: 8px;
+    margin-right: 16px;
+    font-family: 'Nunito';
+}
+
+.sponsorBox{
+    display: flex;
+}
+
+.sponsorBox img{
+    
+    
+    margin: auto;
+}
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+
+}
+
+#footer p{
+    padding-top: 15px;
+    font-family: 'Nunito';
+}
