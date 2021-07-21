@@ -1,2 +1,2 @@
 # DanceWebsite
-This is a dance website project from web development course
+This is a dance website project.
